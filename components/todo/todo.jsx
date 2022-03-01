@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import DeleteIcon from '@mui/icons-material/Delete';
 import Grid from '@mui/material/Grid';
+import "./todo.css";
 
 
 
@@ -25,7 +26,8 @@ export const Todo =() => {
       }
 
       return (
-        <div className = "todoList"><h1>Todo List</h1><div>
+        <div className = "todoList">
+          <h1>Todo List</h1><div>
           <input type="text"
             onChange={(event) => setInputText(event.target.value)}
             placeholder="add item" />

@@ -1,6 +1,7 @@
 import {Todo} from "../todo/todo";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import {Header} from "../header/header";
+import {Home} from "../home/home";
 
 function App() {
   return(
@@ -9,10 +10,9 @@ function App() {
       <Header />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/todo" elemtn={<Todo />} />
+          <Route path="/todo" element={<Todo />} />
         </Routes>
       </BrowserRouter>
-      <Todo/>
     </div>
   )
   
