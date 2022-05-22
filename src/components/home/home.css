@@ -1,0 +1,9 @@
+.App {
+  background-color: rgb(196, 209, 218);
+  text-align: center;
+}
+
+h1,
+p {
+  text-align: center;
+}
